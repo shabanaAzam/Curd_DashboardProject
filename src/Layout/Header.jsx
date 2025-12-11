@@ -7,7 +7,7 @@ function Header() {
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          MY DashBord
+          Blog DashBord
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
