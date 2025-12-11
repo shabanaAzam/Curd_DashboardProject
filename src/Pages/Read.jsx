@@ -49,7 +49,7 @@ function Read() {
         padding: "20px",
       }}
     >
-      <h1 style={{ textAlign: "center" }}>Read only data in card</h1>
+     
       <div class="row row-cols-2 row-cols-md-2 g-3">
         {blogs.map((blog, index) => (
           <Card
