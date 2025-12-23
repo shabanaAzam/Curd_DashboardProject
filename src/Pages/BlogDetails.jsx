@@ -3,9 +3,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Button, Card } from "react-bootstrap";
 import axiosInstance from "../axiosInstance/axiosInstance";
 
+
 function BlogDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
+
+ 
 
   const [blog, setBlog] = useState(null);
   const api_Url = "http://localhost:3000/todo";
@@ -91,6 +94,8 @@ function BlogDetails() {
           </div>
         </Card.Body>
       </Card>
+
+      
     </div>
   );
 }

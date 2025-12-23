@@ -7,6 +7,7 @@ import BlogDetails from "../Pages/BlogDetails";
 import Update from "../Pages/Update";
 
 
+
 function Routing() {
   return (
     <>
@@ -14,9 +15,10 @@ function Routing() {
       <Header/>
         <Routes>
           <Route path="/" element={<Read />} />
-           <Route path="/create" element={<Create />} />
+          <Route path="/create" element={<Create />} />
           <Route path="/blog-details/:id" element={<BlogDetails />} />
           <Route path="/update/:id" element={<Update />} />
+         
         </Routes>
       </BrowserRouter>
     </>
